@@ -29,7 +29,7 @@ export default function DashboardPage() {
         // Si después de 5 segundos no hay usuario, mostramos un error
         const timeout = setTimeout(() => {
           if (!user) {
-            setError("No se pudo cargar la información del usuario. Por favor, recarga la página.")
+            setError("No se pudo cargar la info del usuario. Por favor, recarga la página.")
             setLoading(false)
           }
         }, 5000)
